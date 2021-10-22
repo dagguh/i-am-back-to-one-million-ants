@@ -16,7 +16,9 @@ public class Colony {
     }
 
     private Ant spawnAnt() {
-        return new Ant();
+        Ant ant = new Ant();
+        Thread.startVirtualThread(ant::walk);
+        return ant;
     }
 
     public Stream<Ant> listAnts() {

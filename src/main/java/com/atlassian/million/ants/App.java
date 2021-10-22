@@ -30,5 +30,6 @@ public class App {
         frame.setVisible(true);
 
         colony.spawnAnts();
+        map.startRendering();
     }
 }
