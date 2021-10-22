@@ -10,7 +10,7 @@ public class Colony {
     private final Collection<Ant> ants = new ConcurrentLinkedQueue<>();
 
     public void spawnAnts() {
-        IntStream.range(0, 10_000).forEach(
+        IntStream.range(0, 1_000_000).forEach(
                 a -> ants.add(spawnAnt())
         );
     }

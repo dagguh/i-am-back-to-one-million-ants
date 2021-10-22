@@ -8,8 +8,8 @@ public class App {
         var colony = new Colony();
 
 
-        var w = 640;
-        var h = 640;
+        var w = 1200;
+        var h = 1200;
         var frame = new JFrame();
         frame.setLocation(200, 200);
         frame.setPreferredSize(new Dimension(w, h));
