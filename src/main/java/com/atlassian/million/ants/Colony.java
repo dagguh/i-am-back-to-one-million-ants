@@ -17,7 +17,7 @@ public class Colony {
 
     private Ant spawnAnt() {
         Ant ant = new Ant();
-        Thread.startVirtualThread(ant::walk);
+        Thread.startVirtualThread(ant::live);
         return ant;
     }
 

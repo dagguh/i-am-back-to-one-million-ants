@@ -23,7 +23,7 @@ public class App {
         map.setVisible(true);
         map.setPreferredSize(new Dimension(w, h));
         map.setFocusable(true);
-        map.setBackground(Color.white);
+        map.setBackground(Color.black);
 
         frame.add(map);
         frame.pack();
